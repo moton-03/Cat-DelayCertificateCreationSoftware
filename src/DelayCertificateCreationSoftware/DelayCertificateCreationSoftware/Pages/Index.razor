@@ -1,9 +1,54 @@
 ﻿@page "/"
 
-<PageTitle>Index</PageTitle>
+<PageTitle>DelayCertificateCreationSoftware</PageTitle>
 
-<h1>Hello, world!</h1>
+<h1>DelayCertificateCreationSoftware</h1>
 
-Welcome to your new app.
+<div class="toolbar">
 
-<SurveyPrompt Title="How is Blazor working for you?" />
+    <button class="newButton">
+        New
+    </button>
+
+    <button class="exportButton">
+        Export
+    </button>
+
+</div>
+
+<div class="main">
+
+    <div class="property">
+        
+        <div class="delayedTimePanel">
+            <label>
+                Delayed time:
+            </label>
+            <input type="text" class="delayedTimeText" />
+        </div>
+
+        <div class="publisherPanel">
+            <label>
+                Publisher: 
+            </label>
+            <input type="text" class="publisherText" />
+        </div>
+
+        <div class="publicationTimePanel">
+            <label>
+                Publication time:
+            </label>
+            <input type="text" class="publicationTimeText" />
+        </div>
+        
+    </div>
+
+    <div class="preview">
+
+        <code class="previewCode">
+            
+        </code>
+
+    </div>
+
+</div>
