@@ -869,11 +869,11 @@
       "url": "_framework\/icudt_no_CJK.dat"
     },
     {
-      "hash": "sha256-+slBPSeuY90yAEp7MyG4E6X9U2IcyD6bvzrQ2foAKlY=",
+      "hash": "sha256-MdhmmFSP2L3epMEHZkjNx15+QxRH8zj6b0DrM474YSg=",
       "url": "_framework\/DelayCertificateCreationSoftware.dll"
     },
     {
-      "hash": "sha256-w8ecJpmWc7WF4wcNjqHe3WXI6aDwoXp7n1B1+uQ2Yqg=",
+      "hash": "sha256-gZzj9+9AJw+bTayCqv6cVGFEY5ffv\/6jF92Dv8Htoew=",
       "url": "_framework\/DelayCertificateCreationSoftware.pdb"
     },
     {
@@ -881,9 +881,9 @@
       "url": "_framework\/blazor.webassembly.js"
     },
     {
-      "hash": "sha256-B0\/21kJz67VAJWFIgW2\/pkAILmLe1bF0gi9lPArEbiw=",
+      "hash": "sha256-nZH5+OMJUEK9\/vE+eiwdk8A1wS1hzYLBLepnuDwNt2U=",
       "url": "_framework\/blazor.boot.json"
     }
   ],
-  "version": "vieVxVuH"
+  "version": "Kh6a3kXE"
 };
