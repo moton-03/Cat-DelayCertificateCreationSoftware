@@ -1,16 +1,16 @@
 ﻿@page "/"
 
 <style>
-    .button{
-        border-radius:5px;
-        border:0px;
-        background-image:linear-gradient(180deg, rgb(5, 39, 103) 0%, #3a0647 70%);
-        color:white;
+    .button {
+        border-radius: 5px;
+        border: 0px;
+        background-image: linear-gradient(180deg, rgb(5, 39, 103) 0%, #3a0647 70%);
+        color: white;
     }
 
-    .text{
-        border-radius:5px;
-        border-width:1px;
+    .text {
+        border-radius: 5px;
+        border-width: 1px;
     }
 </style>
 
@@ -20,20 +20,21 @@
 
 <div class="toolbar">
 
-    <button class="button newButton">
+    <button @onclick="New" class="button newButton">
         New
     </button>
 
-    <button class="button exportButton">
-        Export
-    </button>
-
+    <a href="@fileUrl" download="DelayCertificate.txt">
+        <button @onclick="Export" class="button exportButton">
+            Export
+        </button>
+    </a>
 </div>
 
 <div class="main">
 
     <div class="property">
-        
+
         <details open>
             <summary>
                 Property
@@ -43,25 +44,25 @@
                     <label>
                         Delayed time:
                     </label>
-                    <input type="text" class="text delayedTimeText" />
+                    <input @bind="@delayedTime" type="text" class="text delayedTimeText" />
                 </div>
 
                 <div class="publisherPanel">
                     <label>
-                        Publisher: 
+                        Publisher:
                     </label>
-                    <input type="text" class="text publisherText" />
+                    <input @bind="publisher" type="text" class="text publisherText" />
                 </div>
 
                 <div class="publicationTimePanel">
                     <label>
                         Publication time:
                     </label>
-                    <input type="text" class="text publicationTimeText" />
-                </div>  
+                    <input @bind="publicationTime" type="text" class="text publicationTimeText" />
+                </div>
             </div>
         </details>
-        
+
     </div>
 
     <div class="preview">
@@ -71,9 +72,10 @@
                 Preview
             </summary>
             <div>
-                <code class="code previewCode">
-                    
-                </code>
+                <pre class="code previewCode">--Delayed Certificate--
+This certificate proves that something was delayed by @delayedTime.
+  @publicationTime
+    @publisher</pre>
             </div>
         </details>
 
@@ -94,4 +96,30 @@
 
     </div>
 
+
 </div>
+
+@code {
+    string delayedTime = "";
+    string publisher = "";
+    string publicationTime = "";
+    string fileUrl = "";
+    string fileText = "";
+
+
+    void New()
+    {
+        delayedTime = "";
+        publisher = "";
+        publicationTime = "";
+    }
+
+    void Export()
+    {
+        fileText = $@"--Delayed Certificate--
+This certificate proves that something was delayed by {delayedTime}.
+  {publicationTime}
+    {publisher}";
+        fileUrl = $@"data:,{fileText}";
+    }
+}

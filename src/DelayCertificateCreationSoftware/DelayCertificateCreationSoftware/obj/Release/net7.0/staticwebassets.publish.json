@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "6L54hXUNbJ0zBfIf4arAtlZ5pWMMG3lT1aG1X8CcBgE=",
+  "Hash": "zjg9e9Ar4G3Z8H+ASfIzQasiXVMszxfNApvT6vrKFj8=",
   "Source": "DelayCertificateCreationSoftware",
   "BasePath": "/",
   "Mode": "Root",
@@ -1343,40 +1343,6 @@
       "OriginalItemSpec": "C:\\GitHub\\Cat-DelayCertificateCreationSoftware\\src\\DelayCertificateCreationSoftware\\DelayCertificateCreationSoftware\\obj\\Release\\net7.0\\linked\\Microsoft.AspNetCore.Components.WebAssembly.dll"
     },
     {
-      "Identity": "C:\\GitHub\\Cat-DelayCertificateCreationSoftware\\src\\DelayCertificateCreationSoftware\\DelayCertificateCreationSoftware\\obj\\Release\\net7.0\\compress\\zgKaoMvQ.br",
-      "SourceId": "DelayCertificateCreationSoftware",
-      "SourceType": "Computed",
-      "ContentRoot": "C:\\GitHub\\Cat-DelayCertificateCreationSoftware\\src\\DelayCertificateCreationSoftware\\DelayCertificateCreationSoftware\\obj\\Release\\net7.0\\browser-wasm\\PubTmp\\Out\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/System.Net.Http.Json.dll.br",
-      "AssetKind": "Publish",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "RelatedAsset": "C:\\GitHub\\Cat-DelayCertificateCreationSoftware\\src\\DelayCertificateCreationSoftware\\DelayCertificateCreationSoftware\\obj\\Release\\net7.0\\linked\\System.Net.Http.Json.dll",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "br",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\GitHub\\Cat-DelayCertificateCreationSoftware\\src\\DelayCertificateCreationSoftware\\DelayCertificateCreationSoftware\\obj\\Release\\net7.0\\linked\\System.Net.Http.Json.dll"
-    },
-    {
-      "Identity": "C:\\GitHub\\Cat-DelayCertificateCreationSoftware\\src\\DelayCertificateCreationSoftware\\DelayCertificateCreationSoftware\\obj\\Release\\net7.0\\compress\\zgKaoMvQ.gz",
-      "SourceId": "DelayCertificateCreationSoftware",
-      "SourceType": "Computed",
-      "ContentRoot": "C:\\GitHub\\Cat-DelayCertificateCreationSoftware\\src\\DelayCertificateCreationSoftware\\DelayCertificateCreationSoftware\\obj\\Release\\net7.0\\browser-wasm\\PubTmp\\Out\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/System.Net.Http.Json.dll.gz",
-      "AssetKind": "Publish",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "RelatedAsset": "C:\\GitHub\\Cat-DelayCertificateCreationSoftware\\src\\DelayCertificateCreationSoftware\\DelayCertificateCreationSoftware\\obj\\Release\\net7.0\\linked\\System.Net.Http.Json.dll",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\GitHub\\Cat-DelayCertificateCreationSoftware\\src\\DelayCertificateCreationSoftware\\DelayCertificateCreationSoftware\\obj\\Release\\net7.0\\linked\\System.Net.Http.Json.dll"
-    },
-    {
       "Identity": "C:\\GitHub\\Cat-DelayCertificateCreationSoftware\\src\\DelayCertificateCreationSoftware\\DelayCertificateCreationSoftware\\obj\\Release\\net7.0\\compress\\ZhA9jgrn.br",
       "SourceId": "DelayCertificateCreationSoftware",
       "SourceType": "Computed",
@@ -1783,23 +1749,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "obj\\Release\\net7.0\\linked\\System.Net.Http.dll"
-    },
-    {
-      "Identity": "C:\\GitHub\\Cat-DelayCertificateCreationSoftware\\src\\DelayCertificateCreationSoftware\\DelayCertificateCreationSoftware\\obj\\Release\\net7.0\\linked\\System.Net.Http.Json.dll",
-      "SourceId": "DelayCertificateCreationSoftware",
-      "SourceType": "Computed",
-      "ContentRoot": "C:\\GitHub\\Cat-DelayCertificateCreationSoftware\\src\\DelayCertificateCreationSoftware\\DelayCertificateCreationSoftware\\obj\\Release\\net7.0\\browser-wasm\\PubTmp\\Out\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/System.Net.Http.Json.dll",
-      "AssetKind": "Publish",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "BlazorWebAssemblyResource",
-      "AssetTraitValue": "runtime",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "obj\\Release\\net7.0\\linked\\System.Net.Http.Json.dll"
     },
     {
       "Identity": "C:\\GitHub\\Cat-DelayCertificateCreationSoftware\\src\\DelayCertificateCreationSoftware\\DelayCertificateCreationSoftware\\obj\\Release\\net7.0\\linked\\System.Net.Primitives.dll",
